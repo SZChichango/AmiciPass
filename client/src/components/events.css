@@ -1,0 +1,51 @@
+/** @format */
+.events-content {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+.event {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.event:hover {
+  transform: scale(1.01, 1.01);
+  transition: all 0.4s ease-in-out;
+}
+
+.major-event-container img {
+  border-radius: 10px;
+}
+
+.events-grid div img {
+  border-radius: 10px;
+}
+
+.featured-events .event {
+  position: relative;
+}
+
+.featured-events .event-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.featured-events .event:hover .event-name {
+  opacity: 1;
+}

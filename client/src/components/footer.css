@@ -1,0 +1,20 @@
+/** @format */
+
+.main-footer footer {
+  clear: both;
+  position: relative;
+  border-top: 1px solid rgba(6, 6, 6, 0.071);
+  margin-top: auto;
+}
+
+.social-links {
+  font-size: var(--font-size-xl);
+}
+
+.main-footer footer ul {
+  flex-direction: column;
+}
+
+.main-footer footer ul {
+  gap: 2em;
+}

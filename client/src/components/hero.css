@@ -1,0 +1,67 @@
+/** @format */
+
+.hero {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(
+      55deg,
+      rgba(12, 23, 23, 1) 0%,
+      rgba(253, 187, 45, 0) 100%
+    ),
+    url("../assets/images/bg-dj.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 1em;
+  width: 500px;
+  margin: auto 0;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: var(--font-size-xl);
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero-content button {
+  background: var(--primary-primary-light-red);
+  padding: 0.5em 2em;
+  border-radius: 10px;
+  border: 1px solid var(--primary-primary-light-red);
+  transition: all 0.4s ease-in-out;
+}
+
+.hero-content button:hover {
+  background: transparent;
+  color: var(--primary-primary-light-red);
+  transition: all 0.4s ease-in-out;
+}
+
+.search {
+  margin-top: 2em;
+  display: flex;
+  align-items: stretch;
+}
+
+.search input {
+  font-size: var(--font-size-l);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}

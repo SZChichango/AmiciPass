@@ -1,0 +1,20 @@
+/** @format */
+
+.create-event__btn,
+.progress__bar {
+  background: var(--primary-primary-light-red);
+}
+
+.ticket-container {
+  display: grid;
+  place-items: center;
+  font-family: "Staatliches", cursive;
+  background: #d83565;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  padding: 0 2em;
+  overflow-y: hidden;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}

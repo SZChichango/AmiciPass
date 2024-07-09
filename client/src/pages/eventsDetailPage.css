@@ -1,0 +1,62 @@
+/** @format */
+.event.grid {
+  height: fit-content;
+}
+
+.event-info h1 {
+  font-size: var(--font-size-xl);
+}
+
+.buy.btns {
+  margin-top: 2em;
+}
+
+.buy.btns button {
+  border: 1px solid var(--primary-primary-light-red);
+}
+
+.buy.btns button:first-child {
+  color: #fff;
+  background: var(--primary-primary-light-red);
+  transition: all 0.4s ease-in-out;
+}
+
+.buy.btns button:first-child:hover {
+  color: var(--primary-primary-light-red);
+  background: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.buy.btns button:last-child {
+  color: var(--primary-primary-light-red);
+  transition: all 0.4s ease-in-out;
+}
+
+.buy.btns button:last-child:hover {
+  color: #fff;
+  background: var(--secondary-dark-blue);
+  transition: all 0.4s ease-in-out;
+  border: 1px solid var(--secondary-dark-blue);
+}
+
+.discounts-container h1 {
+  font-size: var(--font-size-xl);
+}
+
+.social-buttons button {
+  font-size: var(--font-size-xl);
+  transition: all 0.4s ease-in-out;
+}
+.social-buttons button:hover {
+  font-size: var(--font-size-xl);
+  transform: scale(1.2, 1.2);
+  transition: all 0.4s ease-in-out;
+}
+
+.referall-link button {
+  background: var(--primary-primary-light-red);
+}
+
+.referall-link input {
+  width: 100%;
+}
